@@ -1,19 +1,18 @@
-sponsors
+featured artist 1
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Art Exhibition Showcase - Sponsors</title>
+    <title>The Art Exhibition Showcase - Featured Artist 1</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="favicon.ico">
   </head>
 
   <body>
     <header>
-      <!-- Creates the header section with the menu tabs 
-        Header bar is split into two - logo and header right which contains another flexbox-->
+      <!-- Creates the header section with the menu tabs -->
       <div class="header-logo">
         <h2>Art Exhibition</h2>
       </div>
@@ -24,7 +23,6 @@ sponsors
           <a href="#artists">🎨 Artists</a>
           <a href="#gallery">🖼️ Gallery</a>
           <a href="#about">ℹ️ About</a>
-          <a href="#sponsors">💼 Sponsors</a>
         </div>
         <div class="header-switch">
           <div class="flicker"></div>
@@ -34,25 +32,15 @@ sponsors
       </div>
     </header>
 
-    <div class="sponsors" id="sponsors">
-      <!-- Sponsors section -->
-      <h2>Our Sponsors</h2>
+    <div class="featured-artist">
+      <!-- Featured Artist 1 information -->
+      <h2>Featured Artist 1</h2>
+      <img src="artist1.jpg" alt="Featured Artist 1" />
       <p>
-        We would like to express our gratitude to the following sponsors for
-        their generous support in making this art exhibition possible.
+        Meet our first featured artist, showcasing unique and inspiring
+        artworks that captivate the imagination. Explore the artistic journey
+        and vision of Featured Artist 1.
       </p>
-
-      <div class="sponsor-list">
-        <div class="sponsor">
-          <img src="sponsor1.png" alt="Sponsor 1" />
-          <p>Sponsor 1</p>
-        </div>
-        <div class="sponsor">
-          <img src="sponsor2.png" alt="Sponsor 2" />
-          <p>Sponsor 2</p>
-        </div>
-        <!-- Add more sponsors as needed -->
-      </div>
     </div>
 
     <div class="credits">
@@ -64,4 +52,3 @@ sponsors
     <!-- Connects to JS for event handlers -->
   </body>
 </html>
-

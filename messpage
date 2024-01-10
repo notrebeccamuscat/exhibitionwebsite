@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conscious. the exhibition showcase. </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+
+  <body>
+    <header>
+      <!-- Creates the header section with the menu tabs 
+        Header bar is split into two - logo and header right which contains another flexbox-->
+      <div class="header-logo">
+        <h2>Conscious. </h2>
+      </div>
+      <div class="header-right">
+        <!-- Flexbox used to sort menu items -->
+        <div class="header-menu">
+          <a href="#" class="active">home</a>
+          <a href="#about">who are we?</a>
+          <a href="#exhibition showcase">exhibition showcase</a>
+          <a href="#meet the makers">meet the makers</a>
+          <a href="#contact">contact</a>
+          <a href="#social">social</a>
+          <a href="#sponsors">sponsors</a>
+        </div>
+        <div class="header-switch">
+          <div class="flicker"></div>
+          <div class="moon"></div>
+          <div class="sun"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="hero">
+      <!-- Creates hero landing page which provides CTA for the rest of the website -->
+      <div class="hero-text">
+        <h1>Conscious.<br />a collaborative exhibition.</h1>
+      </div>
+      <div class="hero-btn">
+        <a href="#exhibition showcase"> exhibition showcase </a>
+      </div>
+    </div>
+
+    <div class="parallax">
+      <!-- Inserts parallax viewbox -->
+    </div>
+
+    <div class="exhibition showcase" id="exhibition showcase">
+      <!-- First section of info -->
+      <h2>we are conscious.</h2>
+      <p>
+        Conscious. is a collaborative exhibition that aims to raise awareness. That's it.
+         The exhibition features artworks from three artists, each of whom have created a
+        collection of artworks that explore the theme of awareness, mindfulness and
+        wellbeing. The exhibition is a celebration of the arts and the
+        therapeutic benefits of artistic expression.
+     
+        <img src="images/portfolio-project1.jpg" alt="Portfolio Project 1">
+        <img src="images/portfolio-project2.jpg" alt="Portfolio Project 2">
+        <img src="images/portfolio-project3.jpg" alt="Portfolio Project 3">
+    </div>
+
+    <div class="meet the makers" id="meet the makers">
+      <!-- Second section of info -->
+      <h2>meet the hands and hearts behind Conscious.</h2>
+      <p>
+      <h3>Becca</h3>
+      <p>
+        Becca is an artist, writer and designer based in Malta, currently finishing her Bachelor's in Digital Arts at the University of Malta. 
+        Her work explores themes of mindfulness, consciousness and the human condition.
+        Becca hates the colour orange and her favourite book is Notes from Under the Floorboards by Fyodor Dostoevsky.
+      </p>
+      <!-- Add content showcasing artworks in the gallery -->
+      <img src="images/portfolio-project1.jpg" alt="Portfolio Project 1">
+      <img src="images/portfolio-project2.jpg" alt="Portfolio Project 2">
+      <img src="images/portfolio-project3.jpg" alt="Portfolio Project 3">
+      <p>
+        <h3>Anisia</h3>
+        <p>
+          Anisia is a multimedia artist and photographer based in Malta. 
+          She was born in Turin, Italy where she spent her childhood. 
+          After spending a few years in Istanbul, Turkey Ani moved to study Digital Arts at the University of Malta. 
+          Her work delves into themes of subtlety in awareness and being. 
+        </p>
+        <!-- Add content showcasing artworks in the gallery -->
+        <img src="images/portfolio-project1.jpg" alt="Portfolio Project 1">
+        <img src="images/portfolio-project2.jpg" alt="Portfolio Project 2">
+        <img src="images/portfolio-project3.jpg" alt="Portfolio Project 3">
+      </p>
+      <p>
+        <h3>Anna</h3>
+        <p>
+          Anna Chiara is a Bachelor's student of Digital Arts at the University of Malta.
+          Born on the 16th August of 2002 in Italy, she has showcased her best photographs in this exhibition. 
+          Anna specializes in illustration but still enjoys taking photographs of her journeys around the world, depicting the most striking subjects of her travels.
+        </p>
+        <!-- Add content showcasing artworks in the gallery -->
+        <img src="images/portfolio-project1.jpg" alt="Portfolio Project 1">
+        <img src="images/portfolio-project2.jpg" alt="Portfolio Project 2">
+        <img src="images/portfolio-project3.jpg" alt="Portfolio Project 3">
+    </div>
+
+    <div class="contact" id="contact">
+      <!-- Third section of info -->
+      <!--actually guys over here i think we need to include a form like we did in class not contacting us directly-->
+      <h2>contact us </h2>
+      <p>
+        Get in touch and learn more about the artists and the vision
+        that drives us.
+      </p>
+       <!--actually guys over here i think we need to include a form like we did in class not contacting us directly-->
+      <!-- Add content about the contact page -->
+      <img src="images/contact-image.jpg" alt="Contact Image">
+      <img src="images/contact-image.jpg" alt="Contact Image">
+      <img src="images/contact-image.jpg" alt="Contact Image">
+    </div>
+
+    <div class="social" id="social">
+      <!-- Fourth section of info -->
+      <h2>connect with Conscious.</h2>
+      <p>
+        Learn more about the inspiration behind this exhibition and the vision
+        that drives our commitment to promoting and celebrating the arts.
+      </p>
+      <p>
+        <h3>Becca</h3>
+        <p>
+         Email: 
+         Social Media: 
+        </p>
+      <p>
+        <h3>Anisia</h3>
+        <p>
+         Email: 
+         Social Media: 
+        </p>
+      <p>
+        <h3>Anna</h3>
+        <p>
+         Email: 
+         Social Media: 
+        </p>
+      <!-- Add content about the contact page -->
+      <img src="images/contact-image.jpg" alt="Contact Image">
+      <img src="images/contact-image.jpg" alt="Contact Image">
+      <img src="images/contact-image.jpg" alt="Contact Image">
+
+      <!-- Add content about social media -->
+      <img src="images/contact-image.jpg" alt="Contact Image">
+      <img src="images/contact-image.jpg" alt="Contact Image">
+    </div>
+
+    <div class="sponsors" id="sponsors">
+      <!-- Fifth section of info -->
+      <h2>special thanks to...</h2>
+      <p>
+        We would like to thank the following sponsors for their support and
+        generosity.
+      </p>
+      <!-- Add content about sponsors -->
+      <img src="images/contact-image.jpg" alt="Contact Image">
+      <img src="images/contact-image.jpg" alt="Contact Image">
+      <img src="images/contact-image.jpg" alt="Contact Image">
+    </div>
+
+    <div class="credits">
+      <!-- Displays the credits for the website -->
+      Exhibition organized by Rebecca Muscat, Anisia Petruccelli and Anna Chiara Pessia, 2024.
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Connects to JS for event handlers -->
+  </body>
+</html>

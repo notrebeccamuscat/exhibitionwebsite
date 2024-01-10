@@ -1,0 +1,108 @@
+ft artist 3
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Art Exhibition Showcase - Featured Artist 3</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+
+  <body>
+    <header>
+      <!-- Creates the header section with the menu tabs -->
+      <div class="header-logo">
+        <h2>Art Exhibition</h2>
+      </div>
+      <div class="header-right">
+        <!-- Flexbox used to sort menu items -->
+        <div class="header-menu">
+          <a href="#" class="active">🏠 Home</a>
+          <a href="#artists">🎨 Artists</a>
+          <a href="#gallery">🖼️ Gallery</a>
+          <a href="#about">ℹ️ About</a>
+        </div>
+        <div class="header-switch">
+          <div class="flicker"></div>
+          <div class="moon"></div>
+          <div class="sun"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="featured-artist">
+      <!-- Featured Artist 3 information -->
+      <h2>Featured Artist 3</h2>
+      <img src="artist3.jpg" alt="Featured Artist 3" />
+      <p>
+        Embark on a visual journey with the captivating artworks of Featured
+        Artist 3. Dive into the artist's world and explore the stories behind
+        each masterpiece.
+      </p>
+    </div>
+
+    <div class="credits">
+      <!-- Displays the credits for the website -->
+      Exhibition organized by Your Name, 2023.
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Connects to JS for event handlers -->
+  </body>
+</html>
+ft artist 3
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Art Exhibition Showcase - Featured Artist 3</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+
+  <body>
+    <header>
+      <!-- Creates the header section with the menu tabs -->
+      <div class="header-logo">
+        <h2>Art Exhibition</h2>
+      </div>
+      <div class="header-right">
+        <!-- Flexbox used to sort menu items -->
+        <div class="header-menu">
+          <a href="#" class="active">🏠 Home</a>
+          <a href="#artists">🎨 Artists</a>
+          <a href="#gallery">🖼️ Gallery</a>
+          <a href="#about">ℹ️ About</a>
+        </div>
+        <div class="header-switch">
+          <div class="flicker"></div>
+          <div class="moon"></div>
+          <div class="sun"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="featured-artist">
+      <!-- Featured Artist 3 information -->
+      <h2>Featured Artist 3</h2>
+      <img src="artist3.jpg" alt="Featured Artist 3" />
+      <p>
+        Embark on a visual journey with the captivating artworks of Featured
+        Artist 3. Dive into the artist's world and explore the stories behind
+        each masterpiece.
+      </p>
+    </div>
+
+    <div class="credits">
+      <!-- Displays the credits for the website -->
+      Exhibition organized by Your Name, 2023.
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Connects to JS for event handlers -->
+  </body>
+</html>
