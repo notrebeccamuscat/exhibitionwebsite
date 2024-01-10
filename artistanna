@@ -1,28 +1,28 @@
-featured artist 1
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Art Exhibition Showcase - Featured Artist 1</title>
+    <title>conscious.</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="favicon.ico">
   </head>
 
   <body>
     <header>
-      <!-- Creates the header section with the menu tabs -->
+      <!-- Creates the header section with the menu tabs 
+        Header bar is split into two - logo and header right which contains another flexbox-->
       <div class="header-logo">
-        <h2>Art Exhibition</h2>
+        <h2>Conscious.</h2>
       </div>
       <div class="header-right">
         <!-- Flexbox used to sort menu items -->
         <div class="header-menu">
           <a href="#" class="active">🏠 Home</a>
-          <a href="#artists">🎨 Artists</a>
-          <a href="#gallery">🖼️ Gallery</a>
-          <a href="#about">ℹ️ About</a>
+          <a href="#what">💡 About</a>
+          <a href="#principles">🖐️ Artists</a>
+          <a href="#credits">🚀 Credits</a>
         </div>
         <div class="header-switch">
           <div class="flicker"></div>
@@ -33,9 +33,9 @@ featured artist 1
     </header>
 
     <div class="featured-artist">
-      <!-- Featured Artist 1 information -->
-      <h2>Featured Artist 1</h2>
-      <img src="artist1.jpg" alt="Featured Artist 1" />
+      <!-- anna information -->
+      <h2>Anna Chiara Pessia</h2>
+      <img src="annaselfie.jpg" alt="Anna Chiara Pessia" />
       <p>
         Meet our first featured artist, showcasing unique and inspiring
         artworks that captivate the imagination. Explore the artistic journey
@@ -45,7 +45,7 @@ featured artist 1
 
     <div class="credits">
       <!-- Displays the credits for the website -->
-      Exhibition organized by Your Name, 2023.
+      Exhibition organized by Rebecca Muscat, Anisia Petruccelli and Anna Chiara Pessia, 2024.
     </div>
 
     <script src="script.js"></script>

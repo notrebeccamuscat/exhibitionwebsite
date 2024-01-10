@@ -1,5 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+   <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>conscious.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+
+  <body>
+    <header>
+      <!-- Creates the header section with the menu tabs 
+        Header bar is split into two - logo and header right which contains another flexbox-->
+      <div class="header-logo">
+        <h2>Conscious.</h2>
+      </div>
+      <div class="header-right">
+        <!-- Flexbox used to sort menu items -->
+        <div class="header-menu">
+          <a href="#" class="active">🏠 Home</a>
+          <a href="#what">💡 About</a>
+          <a href="#principles">🖐️ Artists</a>
+          <a href="#credits">🚀 Credits</a>
+        </div>
+        <div class="header-switch">
+          <div class="flicker"></div>
+          <div class="moon"></div>
+          <div class="sun"></div>
+        </div>
+      </div>
+    </header>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
